@@ -20,7 +20,11 @@ layout: default
     {{ content }}
   </div>
 
+  <hr>
   <div class="post-meta">
+    {% if page.avatar %}
+      <img src="/{{ page.avatar }}" alt="" class="avatar-img">
+    {% endif %}
     {% if page.author %}
       <div itemprop="author">{{ page.author }}</div>
     {% endif %}
