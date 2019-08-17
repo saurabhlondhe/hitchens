@@ -4,7 +4,7 @@
   &:hover,
   &:focus-within {
     .post-link {
-      opacity: .6;
+      // opacity: .6;
     }
   }
 }
@@ -19,10 +19,11 @@
   flex-direction: column-reverse;
   text-decoration: none;
   padding: .25em;
-  transition: opacity .125s ease-in-out;
+  // transition: opacity .125s ease-in-out;
   &:hover,
   &:focus {
     opacity: 1 !important;
+    font-weight: bold;
   }
   @media (min-width: $on-tablet) {
     display: flex;
@@ -78,4 +79,13 @@
       opacity: 1;
     }
   }
+}
+
+@media only screen and (max-width: 480px){
+  .post-img{
+    display: none;
+  }
+  .post-link{
+    border-bottom: solid black 1px;
+  }  
 }
