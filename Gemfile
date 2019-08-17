@@ -4,4 +4,7 @@ source "https://rubygems.org"
 gemspec
 
 # for demo site
-gem "jekyll-paginate"
+group :jekyll_plugins do
+    gem "jemoji", "~> 0.8"
+    gem "jekyll-paginate"
+end
