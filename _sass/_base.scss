@@ -159,3 +159,19 @@ figcaption {
     margin-top: 0;
   }
 }
+
+.my-name{
+  text-decoration: none;
+}
+.back-btn{
+  position: fixed;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  cursor: pointer;
+  @media (max-width: $on-tablet) {
+    display: none;
+  }
+}
