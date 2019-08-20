@@ -8,6 +8,6 @@ title: About
 </figure>
 
 ---
-## My timeline
+## My timeline :octocat:
 
 ![saurabhlondhe contributions](https://ghchart.rshah.org/saurabhlondhe)
