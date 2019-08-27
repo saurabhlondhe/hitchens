@@ -1,18 +1,22 @@
 ---
-title:  "IRC Bot in Python"
+title: "IRC Bot in Python"
 author: "Saurabh Londhe"
 avatar: "img/authors/saurabh.jpg"
 image: "img/bot.jpg"
-date:   2018-10-24
-categories: [Python,Project]
+date: 2018-10-24
+categories: [Python, Project]
 layout: post
 ---
+
 ![IRC #demobot](https://img.shields.io/badge/freenode-%23demobot-green.svg)
+
 ### IRC (Internet Relay Chat)
-IRC is a communication medium where peoples talk on the same topic over the world. There are hundreds of channels hosted on IRC. There are client programs who provide a GUI which is easy to log on and chat. IRC servers do use the same socket server-client architecture for communication.  So we are going to design bots in python using socket programming.
+
+IRC is a communication medium where peoples talk on the same topic over the world. There are hundreds of channels hosted on IRC. There are client programs who provide a GUI which is easy to log on and chat. IRC servers do use the same socket server-client architecture for communication. So we are going to design bots in python using socket programming.
 
 ### What Python can do?
-Python having great library collections and easy to understand. Like other languages, Python have socket module through which we can communicate to the servers. Socket create communication between two entities. python is good for ML so designing bot using Python is easy.
+
+Python having great library collections and easy to understand. Like other languages, Python has a socket module through which we can communicate to the servers. Socket create communication between two entities. python is good for ML so designing bot using Python is easy.
 
 ---
 
@@ -30,69 +34,81 @@ irc.send("text")        # sends a message to server
 print(irc.recv(2048))       # receive a message from server
 ```
 
-
 ### IRC basics
--   IRC - Internet Relay Chat
--   irc port : ```6667```
--   *irc server : ```chat.freenode.net```
--   *channel : #demobotin
-    -   is a network where we can do communication with others
--   *nickname : botname
+
+- IRC - Internet Relay Chat
+- irc port : `6667`
+- \*irc server : `chat.freenode.net`
+- \*channel : #demobotin
+  - is a network where we can do communication with others
+- - nickname: botname
 
 join irc channel [here](https://webchat.freenode.net/?channels=%23demobot) before starting
+
 ```
 PRIVMSG <channel-name> <user-name> <msg> #sends private messege to channel
 ```
 
 ## Starting with code. . .
--   importing modules
-    -   sys
-    -   socket
-    ```python
-    import sys
-    import socket
-    ```
 
--   Initialization
-    ```python
-    channel = "#demobot"
-    server = "chat.freenode.net"
-    botnick = "hello_bot"
-    NAME = "Love Python"
-    port = 6667
-    ```
+- importing modules
 
--   connecting to server by creating socket connection
-    ```python
-    irc=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    irc.connect((server,port))
-    print("connected")
-    ```
+  - sys
+  - socket
 
--   send user name to server
-    ```python
-    irc.send("USER " + botnick + " " + botnick + " " + botnick + " :"+NAME+"\n")
-    ```
+  ```python
+  import sys
+  import socket
+  ```
 
--   send nick name to server
-    ```python
-    irc.send("NICK " + botnick + "\n")
-    ```
+- Initialization
 
--   joining channel
-    ```python
-    irc.send("JOIN " + channel + "\n")
-    ```
+  ```python
+  channel = "#demobot"
+  server = "chat.freenode.net"
+  botnick = "hello_bot"
+  NAME = "Love Python"
+  port = 6667
+  ```
 
--   reply with greetings
-    ```python
-    hi_greet=["hi","hi!","hey","hey!","hello","hello!"]
+- connecting to the server by creating a socket connection
 
-    irc.send("PRIVMSG "+channel+" :"+user_name+", "+hi_greet[random.randint(0, 5)]+" \n")
-    ```
+  ```python
+  irc=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+  irc.connect((server,port))
+  print("connected")
+  ```
+
+- send user name to the server
+
+  ```python
+  irc.send("USER " + botnick + " " + botnick + " " + botnick + " :"+NAME+"\n")
+  ```
+
+- send nickname to server
+
+  ```python
+  irc.send("NICK " + botnick + "\n")
+  ```
+
+- joining channel
+
+  ```python
+  irc.send("JOIN " + channel + "\n")
+  ```
+
+- reply with greetings
+
+  ```python
+  hi_greet=["hi","hi!","hey","hey!","hello","hello!"]
+
+  irc.send("PRIVMSG "+channel+" :"+user_name+", "+hi_greet[random.randint(0, 5)]+" \n")
+  ```
 
 ---
+
 ### Source code :-
+
 ```python
 import platform
 import random
@@ -161,8 +177,6 @@ except KeyboardInterrupt:
 ```
 
 ---
-***NOTE :***
+
+**_ NOTE: _**
 code will work with python2
-
----
-

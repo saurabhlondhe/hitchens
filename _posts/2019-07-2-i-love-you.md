@@ -1,12 +1,13 @@
 ---
-title:  "I Love You..."
+title: "I Love You..."
 author: "Ashish Chikhalikar"
 avatar: "img/authors/ashish.jpg"
 image: "img/ilu/kids.jpg"
-date:   2019-07-04
+date: 2019-07-04
 categories: [Life]
 layout: post
 ---
+
 <div class="ui-g">
     <div class="ui-lg-6 girl-boy">
         <img src="/img/ilu/kids2.jpg">
