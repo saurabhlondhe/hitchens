@@ -16,11 +16,10 @@
 title: Saurabh Londhe
 email: saurabhlondhe1111@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A geek who love computers and coding.
+  A geek 🐼 who loves computers and coding 💻.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
-
 
 # Build settings
 markdown: kramdown
