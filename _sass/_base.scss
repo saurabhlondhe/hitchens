@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-size: 3em;
-  margin: .5em auto;
+  margin: 0.5em auto;
 }
 
 h2 {
@@ -38,7 +38,7 @@ h5 {
 }
 
 h6 {
-  font-size: .875em;
+  font-size: 0.875em;
   font-style: italic;
   margin: 2.25em auto;
   text-align: center;
@@ -62,7 +62,7 @@ a:focus {
 
 blockquote {
   margin: 2em auto;
-  opacity: .8;
+  opacity: 0.8;
   > * {
     padding: 0 3em;
   }
@@ -73,7 +73,7 @@ blockquote.epigraph {
 }
 
 small {
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 p > cite {
@@ -90,21 +90,23 @@ hr {
 
 img {
   // display: flex;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   // margin: 2em auto;
 }
 
 figure img {
-  margin: 2em auto 1em;
+  margin: 2em auto 2em;
+  justify-content: center;
+  display: flex;
 }
 
 figcaption {
-  font-size: .875em;
+  font-size: 0.875em;
   font-style: italic;
   text-align: center;
   margin-bottom: 2em;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .divided::after {
@@ -127,11 +129,11 @@ figcaption {
 .post-date {
   color: $muted-text-color;
   display: block;
-  font-size: .825em;
+  font-size: 0.825em;
   white-space: nowrap;
   text-transform: uppercase;
   .post-link & {
-    padding: .5em 0;
+    padding: 0.5em 0;
   }
 }
 
@@ -145,10 +147,10 @@ figcaption {
   background: $brand-color;
   border: 1px dashed transparent;
   display: block;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: 700;
   margin-top: -2.625rem;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -160,10 +162,10 @@ figcaption {
   }
 }
 
-.my-name{
+.my-name {
   text-decoration: none;
 }
-.back-btn{
+.back-btn {
   position: fixed;
   width: 50px;
   background-color: transparent;
