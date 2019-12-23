@@ -82,5 +82,7 @@ Worked some complex utilities written in python. I am known for my quick underst
 
 ### Contact me
 
+<div class="about-desc">
 📞 <a href="tel:8888603379">+91 8888603379</a><br/>
 📧 <a href="mailto:saurabhlondhe1111@gmail.com">saurabhlondhe1111@gmail.com</a>
+</div>

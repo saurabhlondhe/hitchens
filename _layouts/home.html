@@ -8,7 +8,7 @@ paginator.page > 1 %} {% include back-link.html %} {% else %}
 <header class="site-masthead">
   {% include menu.html %} {% if site.title %}
   <h1>
-    <a href="http://saurabhlondhe.com" class="my-name">
+    <a href="http://saurabhlondhe.com" class="my-name box">
       {{ site.title }}
     </a>
   </h1>
@@ -22,9 +22,8 @@ paginator.page > 1 %} {% include back-link.html %} {% else %}
 
 <main class="home" id="main" role="main" aria-label="Content">
   <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page > 1 %} Page
-    {{ paginator.page }}
-    {% else %} Contents {% endif %}
+    {% if site.paginate and site.paginate_path and paginator.page > 1 %} Page {{
+    paginator.page }} {% else %} Contents {% endif %}
   </h1>
 
   {% if site.paginate and site.paginate_path %}
