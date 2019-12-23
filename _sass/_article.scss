@@ -31,9 +31,11 @@
 .post h2 + p {
   text-indent: 0;
 }
-
+.post img.emoji {
+  pointer-events: none;
+}
 .post a:hover {
-  background: $highlight;
+  text-decoration: none;
 }
 
 .post dl,

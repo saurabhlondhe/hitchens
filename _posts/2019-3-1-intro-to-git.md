@@ -8,7 +8,7 @@ categories: [Linux]
 layout: post
 ---
 
-# An intro git for Beginners
+## An intro git for Beginners
 
 ### Let's talk a little bit about why git?
 
@@ -20,17 +20,18 @@ While working in a group project we need to keep our code from where other team 
 
 ### Install git:
 
-The first two things you'll want to do are install git and create a free GitHub account.
+The first two things you'll want to do are install git and create a free [GitHub](https://github.com/) account.
+I personally love Gitlab as it provides great feature freely but GitHub is the old player 😅
 
 - Installing on Linux
 
-  If you are Fedora guy
+  If you are Fedora guy (`.rpm`)
 
   ```sh
   sudo dnf install git-all
   ```
 
-  elif you are Debian/ubuntu guy
+  elif you are Debian/ubuntu guy (`.deb`)
 
   ```sh
   sudo apt install git-all
@@ -38,9 +39,9 @@ The first two things you'll want to do are install git and create a free GitHub 
 
   else have a look [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-- Installing on Windows
+* Installing on Windows
 
-  No commands for Windows so get installer [here](https://git-scm.com/download/win)
+  No commands for Windows so get installer [here 😒](https://git-scm.com/download/win)
 
 ---
 
@@ -98,7 +99,7 @@ git clone "URL" foldername
 - Then you can commit files in that directory into the repo.
 
   ```sh
-  $ touch test.txt        #creats a file
+  $ touch test.txt        #creates a file
   ```
 
 
@@ -156,4 +157,4 @@ If you still stuck somewhere use following cheat sheet :)
 
 Try using git daily because more you use git, the more comfortable you'll.
 
-Git for pro will be available soon.
+Git for pro 💪 [here it is](/linux/2019/12/23/adv-git.html).

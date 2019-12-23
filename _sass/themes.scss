@@ -1,8 +1,10 @@
-$bg-color: #ff8888; //start color
+// $bg-color: #ff8888; //start color
+$bg-color: #88c5ff; //start color
 $stops: 100; //smoothness
 $time: 15s; //duration of animation
 $hue-range: 100; //of 360deg
 
+.post a:hover,
 body {
   background-color: $bg-color;
   -webkit-animation: colorChange $time linear 0s infinite;
@@ -31,8 +33,8 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 0px;
 }
 
 /* Track */

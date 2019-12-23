@@ -324,6 +324,7 @@ li > code,
 li > pre,
 h5 > code,
 .note > code {
+  text-indent: initial;
   background-color: #2b2b2b;
   color: #fff;
   max-width: 100%;
@@ -521,6 +522,7 @@ code.output {
 }
 .language-sh {
   position: relative;
+  margin: 20px auto;
 }
 .language-sh:before {
   display: table;
