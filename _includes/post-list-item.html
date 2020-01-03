@@ -1,13 +1,26 @@
-<li>
-  <a href="{{ post.url | absolute_url }}" class="post-link">
-    <img src="/{{ post.image }}" alt="" class="post-img" />
-    <div class="post-link__heading">
-      {% unless post.title == "" %}
-      <h1 class="post-link__title">{{ post.title }}</h1>
-      {% else %} {% include post-excerpt.html %} {% endunless %} {% if
-      post.title != "" and site.show_excerpts == true %} {% include
-      post-excerpt.html %} {% endif %}
-    </div>
-    <span class="post-date"> {{ post.date | date: "%b %-d, '%y" }}</span>
+<li class="post-link">
+  <a href="{{ post.url | absolute_url }}" class="post_link_a">
+    {% unless post.title == "" %}
+    <span class="post-link__title">{{ post.title }}</span>
+    {% else %} {% include post-excerpt.html %} {% endunless %} {% if post.title
+    != "" and site.show_excerpts == true %} {% include post-excerpt.html %} {%
+    endif %}
   </a>
+  <div style="vertical-align: -webkit-baseline-middle;">
+    <img src="/{{ post.avatar }}" alt="" class="post-img" />
+    {% if post.author contains 'Saurabh Londhe' %}{% assign has_link = "/about"
+    %} {% else %} {% assign has_link = post.author %}{% endif %}
+    <a class="post-author-name mg-10" href="{{has_link}}">👤 {{post.author}}</a>
+    <span class="post-date mg-10"> {{ post.date | date: "%b %-d, '%y" }}</span>
+  </div>
+  <div style="margin-top: 24px;">
+    {{ post.content | strip_html | truncatewords:50}}<br /><a
+      href="{{post.url | absolute_url }}"
+      style="text-decoration: underline;"
+      >[Read more]</a
+    >
+  </div>
+  🔖 {% for item in post.categories %}
+  <a href="/{{item}}" class="badge badge-light">{{item}}</a>
+  {% endfor %}
 </li>

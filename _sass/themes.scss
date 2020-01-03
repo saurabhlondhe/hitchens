@@ -11,6 +11,11 @@ body {
   animation: colorChange $time linear 0s infinite;
   color: colorChange $time linear 0s infinite;
 }
+.post-link a:hover {
+  animation: colorChange $time linear 0s infinite;
+
+  color: colorChange $time linear 0s infinite;
+}
 
 @-webkit-keyframes colorChange {
   @for $i from 0 through $stops {

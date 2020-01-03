@@ -2,7 +2,7 @@
 title: "Let's start with git"
 date: 2019-03-01
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/git.jpg"
 categories: [Linux]
 layout: post

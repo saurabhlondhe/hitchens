@@ -1,7 +1,7 @@
 ---
 title: "Working with PyQt4"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/python.jpg"
 date: 2018-02-25
 categories: [Python, Project, Linux]

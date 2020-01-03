@@ -53,12 +53,12 @@ strong {
 }
 
 a {
-  color: $text-color;
+  color: $text-color !important;
 }
 
-a:focus {
-  outline: 1px dashed $text-color;
-}
+// a:focus {
+//   outline: 1px dashed $text-color;
+// }
 
 blockquote {
   margin: 2em auto;
@@ -128,7 +128,7 @@ figcaption {
 
 .post-date {
   color: $muted-text-color;
-  display: block;
+  // display: block;
   font-size: 0.825em;
   white-space: nowrap;
   text-transform: uppercase;
@@ -145,7 +145,7 @@ figcaption {
 
 .skip-navigation {
   background: $brand-color;
-  border: 1px dashed transparent;
+  // border: 1px dashed transparent;
   display: block;
   font-size: 0.875em;
   font-weight: 700;
@@ -173,8 +173,12 @@ figcaption {
   border: none;
   outline: none;
   margin-left: 10px;
+  margin-top: 45vh;
   cursor: pointer;
   @media (max-width: $on-tablet) {
     display: none;
+  }
+  img {
+    height: 50px;
   }
 }

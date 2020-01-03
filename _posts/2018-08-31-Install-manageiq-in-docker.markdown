@@ -2,7 +2,7 @@
 title: "ManageIQ Installation in Docker"
 subtitle: ""
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/a.jpg"
 date: 2018-08-31
 categories: [Project, Linux, Docker, Cloud]

@@ -1,7 +1,7 @@
 ---
 title: "Fileop module in Python"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/files.jpg"
 date: 2018-10-22
 categories: [Python, Project]

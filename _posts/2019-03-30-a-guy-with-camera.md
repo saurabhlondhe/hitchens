@@ -1,7 +1,7 @@
 ---
 title: "A guy with camera #PocoF1"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/akash/bg.jpg"
 date: 2019-03-24
 categories: []

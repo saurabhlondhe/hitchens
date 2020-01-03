@@ -2,7 +2,7 @@
 title: "ManageIQ Database Backup and Restore"
 date: 2018-08-30
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/Cloud-Automation.jpg"
 categories: [Project, Linux]
 layout: post

@@ -8,46 +8,63 @@
     }
   }
 }
-
-.post-list li {
-  margin-bottom: 1em;
+.post-author-name {
+  font-size: 16px;
 }
-
+.post-list li {
+  margin-bottom: 72px;
+  &:hover {
+    border-bottom: 0.5px solid black;
+  }
+}
+.post_link_a {
+  display: block;
+  margin-bottom: 24px;
+}
 .post-link {
-  color: $text-color;
-  display: flex;
-  flex-direction: column-reverse;
+  font-size: 18px;
+  line-height: 1.6;
   text-decoration: none;
   padding: 0.25em;
-  // transition: opacity .125s ease-in-out;
   &:hover,
   &:focus {
-    opacity: 1 !important;
-    font-weight: bold;
+    text-decoration: none;
   }
   @media (min-width: $on-tablet) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
     .post-date {
       margin-left: auto;
     }
   }
 }
-
+.mg-10 {
+  margin: 10px;
+}
 .post-link__heading {
   display: block;
   margin-right: 4em;
   @media (min-width: $on-tablet) {
     padding: 0.25em 0;
   }
+  // * {
+  //   color: white;
+  // }
   h1 {
-    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.15;
+    font-size: 32px;
     margin-bottom: 0;
     margin-top: 0;
   }
 }
-
+.post-link__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 1.5rem;
+  line-height: 1.15;
+}
 .post-link__title + .post-link__excerpt {
   opacity: 0.6;
 }

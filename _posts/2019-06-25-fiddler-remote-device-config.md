@@ -1,7 +1,7 @@
 ---
 title: "Configure Fiddler For Android and IOS"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/fiddler-banner.png"
 date: 2019-06-25
 categories: [Network]

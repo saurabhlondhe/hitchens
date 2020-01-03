@@ -1,7 +1,7 @@
 ---
 title: "Deploy a docker web application using AWS-ECS"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/docker-aws.jpg"
 date: 2019-04-15
 categories: [Docker, Microservices]

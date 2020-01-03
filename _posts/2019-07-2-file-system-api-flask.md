@@ -1,7 +1,7 @@
 ---
 title: "Explore file System with Flask"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/flask/banner.jpg"
 date: 2019-07-02
 categories: [Python, Linux, Project]

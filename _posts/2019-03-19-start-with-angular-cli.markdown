@@ -1,7 +1,7 @@
 ---
 title: "Angular and Angular CLI"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/angular.png"
 date: 2019-03-19
 categories: [Project, Angular]

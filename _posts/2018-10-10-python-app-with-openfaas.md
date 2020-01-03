@@ -1,7 +1,7 @@
 ---
 title: "Deploy a python app using OpenFaaS"
 author: "Saurabh Londhe"
-avatar: "img/authors/saurabh.jpg"
+avatar: "img/authors/saurabh.png"
 image: "img/openfaas.png"
 date: 2018-10-10
 categories: [Cloud, Docker, Linux, Project]
