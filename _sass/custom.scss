@@ -4,6 +4,12 @@
   #results-container {
     list-style-type: none;
     margin-left: 15px;
+    button {
+      background-color: transparent;
+      border: none;
+      width: 100%;
+      text-align: left;
+    }
     li {
       padding: 10px;
     }

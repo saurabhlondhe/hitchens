@@ -8,8 +8,6 @@ categories: [Python, Project]
 layout: post
 ---
 
-![IRC #demobot](https://img.shields.io/badge/freenode-%23demobot-green.svg)
-
 ### IRC (Internet Relay Chat)
 
 IRC is a communication medium where peoples talk on the same topic over the world. There are hundreds of channels hosted on IRC. There are client programs who provide a GUI which is easy to log on and chat. IRC servers do use the same socket server-client architecture for communication. So we are going to design bots in python using socket programming.

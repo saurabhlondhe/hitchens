@@ -8,8 +8,6 @@ categories: [Project, Angular]
 layout: post
 ---
 
-# Angular and angular-cli
-
 _Angular_ is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop.
 
 `angular-cli` stands for _Angular Command Line Interface_, Angular having a structure and little configurations that can be done by using `angular-cli` in no time.

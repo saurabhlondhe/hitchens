@@ -8,9 +8,7 @@ categories: [Docker, Microservices]
 layout: post
 ---
 
-### Deploying a docker web application to AWS-ECS
-
-### For those who had just started, we'll have a look at docker and ECS.
+# For those who had just started, we'll have a look at docker and ECS.
 
 Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.
 In a way, Docker is a bit like a virtual machine. But unlike a virtual machine, rather than creating a whole virtual operating system, Docker allows applications to use the same Linux kernel as the system that they're running on and only requires applications be shipped with things not already running on the host computer. This gives a significant performance boost and reduces the size of the application.
@@ -71,7 +69,7 @@ Following will be the output of "`docker images`"
 6.  Take ssh of `httpd` image to configure it manually.
     ![ssh-httpd-image](/img/aws-ecr/ssh-httpd.png)
 
-        update ```/urs/local/apache2/htdocs/index.html``` and change the content.
+    update `/urs/local/apache2/htdocs/index.html` and change the content.
 
 ![index.html-file](/img/aws-ecr/7.png)
 
@@ -89,9 +87,9 @@ to save the image with its content it needs to be committed.
 
 7.  After committing an image it can be pushed to AWS ECR(Elastic Container Registry)
 
-        ```sh
-        docker push <your ECR url>/test-http-server:latest
-        ```
+    ```sh
+    docker push <your ECR url>/test-http-server:latest
+    ```
 
     ![aws-login](/img/aws-ecr/10.png)
 

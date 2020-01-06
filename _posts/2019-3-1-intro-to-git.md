@@ -8,8 +8,6 @@ categories: [Linux]
 layout: post
 ---
 
-## An intro git for Beginners
-
 ### Let's talk a little bit about why git?
 
 The same guy who created a 'Linux Operating System' Linus Torvalds also created git for Linux kernel development.
