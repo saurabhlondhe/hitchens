@@ -41,8 +41,11 @@
 .post img.emoji {
   pointer-events: none;
 }
-.post a:hover {
-  text-decoration: none;
+.post a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .post dl,
