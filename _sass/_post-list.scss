@@ -1,12 +1,6 @@
 .post-list {
   margin: 1em 0;
   list-style: none;
-  &:hover,
-  &:focus-within {
-    .post-link {
-      // opacity: .6;
-    }
-  }
 }
 .post-author-name {
   font-size: 16px;
@@ -41,6 +35,9 @@
 }
 .mg-10 {
   margin: 10px;
+}
+.tags {
+  margin: 24px 0;
 }
 .post-link__heading {
   display: block;

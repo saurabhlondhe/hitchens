@@ -20,7 +20,9 @@
       >[Read more]</a
     >
   </div>
-  🔖 {% for item in post.categories %}
-  <a href="/{{item}}" class="badge badge-light">{{item}}</a>
-  {% endfor %}
+  <div class="tags">
+    🔖 {% for item in post.categories %}
+    <a href="/{{item|downcase}}" class="badge badge-light">{{item}}</a>
+    {% endfor %}
+  </div>
 </li>
