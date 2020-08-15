@@ -9,13 +9,13 @@ body {
 }
 
 pre {
-  font-family: monospace;
+  font-family: "Fira Code", monospace;
   font-size: 1em;
 }
 code,
 kbd,
 samp {
-  font-family: monospace;
+  font-family: "Fira Code", monospace;
   font-size: 1em;
 }
 .highlight .c {
@@ -360,6 +360,9 @@ h5 > code,
 }
 .code-block code {
   background: none;
+}
+.highlighter-rouge {
+  margin: 12px;
 }
 .highlight,
 .highlighter-rouge .highlight {

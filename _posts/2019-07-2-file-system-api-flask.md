@@ -1,5 +1,5 @@
 ---
-title: "Explore file System with Flask"
+title: "🔭Explore file System with Flask 📁"
 author: "Saurabh Londhe"
 avatar: "img/authors/saurabh.png"
 image: "img/flask/banner.jpg"

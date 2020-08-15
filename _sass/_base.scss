@@ -6,6 +6,11 @@ body {
   line-height: 1.5;
 }
 
+.badge-light {
+  border: solid 1px;
+  border-radius: 4px;
+}
+
 h1 {
   font-size: 3em;
   margin: 0.5em auto;
@@ -88,7 +93,6 @@ img {
   // display: flex;
   max-width: 90%;
   height: auto;
-  // margin: 2em auto;
 }
 
 figure img {
@@ -169,7 +173,7 @@ figcaption {
   border: none;
   outline: none;
   margin-left: 10px;
-  margin-top: 45vh;
+  top: 50%;
   cursor: pointer;
   @media (max-width: $on-tablet) {
     display: none;

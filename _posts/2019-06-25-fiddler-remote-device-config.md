@@ -1,5 +1,5 @@
 ---
-title: "Configure Fiddler For Android and IOS"
+title: "Configure Fiddler For Android 📱 and IOS 🍎"
 author: "Saurabh Londhe"
 avatar: "img/authors/saurabh.png"
 image: "img/fiddler-banner.png"
